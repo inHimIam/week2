@@ -44,7 +44,7 @@ img {
     width: 135
 }
 
-footer {
+.footer {
     clear: both;
     text-align: center;
     width: 70%;
@@ -54,4 +54,14 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
+    
+}
+
+footer li{
+    display: inline;
+    
+}
+footer a {
+    text-decoration: none;
+    padding: 5;
 }
