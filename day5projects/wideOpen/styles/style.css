@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato', sans-serif;
+    color: #8f8787
+}
+body {
+}
+
+.main-container {
+    width: 320px;
+    height: 5980px;
+    
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.main-top {
+    height: 55vh;
+    width: 100%;
+    background: url("../Assets/wot-masthead-dark.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.main-header {
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav.main.top a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 50%;
+}
+.HAM {
+    width: 65px;
+}
+
+.main-nav-bar {
+    display: none;
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+.main-top-inner {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.main-top-inner h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main-top-inner h1 {
+    font-size: 50px;
+}
+.main-top-inner p {
+    margin-bottom: 20px;
+}
+.CTA {
+    width: 75%;
+    padding: 10px;
+    background: #40666d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
